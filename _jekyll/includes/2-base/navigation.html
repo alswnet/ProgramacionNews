@@ -8,31 +8,8 @@
 
     <li><a class="top-link" href="{{ '/' | relative_url }}" id="home">Inicio</a></li>
 
-    <li><a href="{{ '/Tutoriales' | relative_url }}">Tutoriales</a></li>
+    <li><a href="{{ '/Noticias' | relative_url }}">Noticias</a></li>
 
-
-    <li>
-      <button class="submenu-button top-link" aria-haspopup="true"
-        for="beginners-submenu"><span>Cursos</span></button>
-      <div class="submenu" id="beginners-submenu">
-        <ul class="links">
-          <li><a href="{{ '/Cursos/01_Arduino_ChatBot_Telegram' | relative_url }}">ChatBot con Arduino</a></li>
-          <li><a href="{{ '/Cursos/07_Inteligencia_Artificial_ML5' | relative_url }}">Inteligencia Artificial con ML5</a></li>
-          <li><a href="{{ '/Cursos/08_Processing_y_Arduino' | relative_url }}">Processing y Arduino</a></li>
-          <li><a href="{{ '/Cursos/09_Curso_de_Freecad' | relative_url }}">FreeCAD</a></li>
-          <li><a href="{{ '/Cursos/05_RedBot_App/' | relative_url }}">RedBotApp con Arduino</a></li>
-          <li><a href="{{ '/Cursos' | relative_url }}">Todos los Cursos</a></li>
-        </ul>
-      </div>
-    </li>
-
-    <!--
-      <li><a href="{{ '/Presentaciones' | relative_url }}">Presentaciones</a></li>
-    -->
-
-    <!--
-      <li><a href="{{ site.links.alsw }}" target="_blank">ALSW</a></li>
-    -->
 
     <li>
       <button class="submenu-button top-link" aria-haspopup="true"
@@ -49,25 +26,11 @@
     </li>
 
     <li>
-      <button class="submenu-button top-link" aria-haspopup="true"
-        for="Apoya-submenu"><span>Apoya</span></button>
-      <div class="submenu" id="Apoya-submenu">
-        <ul class="links">
-          <li><a href="{{ site.links.patreon }}">Patreon</a></li>
-          <li><a href="{{ site.links.paypal }}">Paypal</a></li>
-        </ul>
-      </div>
-    </li>
-
-    <li>
-      <button class="submenu-button top-link" aria-haspopup="true" for="more-submenu"><span>Mas</span></button>
+      <button class="submenu-button top-link" aria-haspopup="true" for="more-submenu"><span>Canales YouTube</span></button>
       <div class="submenu" id="more-submenu">
         <ul class="links">
-          <li><a href="{{ '/Grabaciones' | relative_url }}">Grabaciones</a></li>
-          <li><a href="{{ '/mas/faq' | relative_url }}">Preguntas Frecuentes</a></li>
-          <li><a href="{{ '/linuxappuso' | relative_url}}">Las Linux App que uso</a></li>
-          <li><a href="{{ '/RetoProgramacion' | relative_url }}">EnVivos</a></li>
-          <li><a href="{{ '/invitados' | relative_url }}">Invitados</a></li>
+          <li><a href="{{site.links.youtube}}">ALSW</a></li>
+          <li><a href="{{site.links.youtube_cursorobotica}}">Curso de Robotica</a></li>
         </ul>
       </div>
     </li>

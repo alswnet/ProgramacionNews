@@ -1,8 +1,8 @@
 #
-# Jekyll Configuraton for https://NocheProgramacion.com
+# Jekyll Configuraton for ProgramacionNews
 #
 #  ToDo for Jekyll v3.7:
-#    - Agregar presentaciones Sozi
+#    - 
 #
 
 # --- Site Settings ---
@@ -64,6 +64,7 @@ links:
 
   # Link to YouTube.
   youtube:                    https://youtube.com/alswnet
+  youtube_cursorobotica:      https://www.youtube.com/etronikltda
 
   # Link to Patreon.
   patreon:                    https://patreon.com/alswnet
@@ -124,6 +125,7 @@ collections:
   RetoProgramacion: { output: true }
   Cursos:           { output: true }
   Tutoriales:       { output: true }
+  Noticias:         { output: true }
   Guias:            { output: true }
   Presentaciones:   { output: true }
   mas:              { output: true }
@@ -152,6 +154,13 @@ defaults:
       layout:                 "video"
       video_type:             "tutoriales"
       video_type_short:       "tutorial"
+      can_contribute:         true
+
+  - scope:              { path: "", type: "Noticias" }
+    values:
+      layout:                 "video"
+      video_type:             "Noticias"
+      video_type_short:       "Noticia"
       can_contribute:         true
 
   - scope:              { path: "", type: "Grabaciones" }
