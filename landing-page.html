@@ -1,0 +1,74 @@
+---
+layout: base
+permalink: /
+---
+
+{% comment %} Obtener los ultimis turoriales {% endcomment %}
+{% include 1-tools/sort-videos.html videos=site.Tutoriales reverse=true %}
+
+
+{% comment %} Use the latest coding challenge if a stream hasn't been scheduled yet. {% endcomment %}
+{% if nextStream == null %}
+{% assign offset = 1 %}
+{% assign nextStream = out_sortedVideos | first %}
+{% else %}
+{% assign offset = 0 %}
+{% endif %}
+
+{% assign featuredVideos = '' | split: '' %}
+
+{% comment %} Add latest coding challenges to featured videos array. {% endcomment %}
+{% for challenge in out_sortedVideos limit:6 offset:offset %}
+{% assign featuredVideos = featuredVideos | push: challenge %}
+{% endfor %}
+
+
+{% comment %} Get lastest stream and add it to the featured videos array.
+{% include 1-tools/sort-videos.html videos=site.Tutoriales reverse=true %}
+{% assign featuredVideos = featuredVideos | push: out_sortedVideos[0] %}
+{% endcomment %}
+
+{% comment %} Get lastest stream and add it to the featured videos array.
+{% include 1-tools/sort-videos.html videos=site.Cursos reverse=false %}
+{% assign featuredVideos = featuredVideos | push: out_sortedVideos[0] %}
+{% endcomment %}
+
+<div class="landing-page">
+  <div class="welcome-message">
+    <div class="learn-to-code">
+      <h1>Noche Programación</h1>
+      <h3>de ALSW</h3>
+      <p>Aquí se recopilan todos nuestros Tutoriales, Cursos, Proyectos; algunos simples, otros complicados pero todos divertidos.</p>
+      <div class="ctas">
+        <a href="{{ site.links.youtube }}?sub_confirmation=1" target="_blank" class="youtube">Suscribete a Youtube</a>
+        <a href="{{ site.links.patreon }}" target="_blank" class="patreon">Conviertete Patreon</a>
+        <a href="{{ site.links.discord }}" target="_blank" class="discord">Unete a Discord</a>
+      </div>
+    </div>
+
+    {% include 3-modules/video-card.html video=nextStream %}
+
+  </div>
+
+  <h2>Últimos videos</h2>
+  <div class="featured-videos">
+    {% include 3-modules/video-list.html sortedVideos=featuredVideos %}
+    <a href="{{ site.links.youtube }}" target="_blank" class="more-videos">Mirar mas videos</a>
+  </div>
+
+  <h2>Apoya a ALSW</h2>
+  <div class="support">
+    {% capture patreonLogo %}{% include 4-vector-graphics/patreon.svg %}{% endcapture %}
+    {% include 3-modules/hero-item.html image=patreonLogo title='Necesitamos tu Apoyo' content='Ayudános a seguir creando contenido, cada aporte salva un "Proyecto de arduino"' url=site.links.patreon cta='Conviertete en Patreon' class='patreon'
+    %}
+
+    {% capture merchStoreImage %}<img alt='Tienda de ALSW' src="{{ '/assets/images/Logo-ALSW.png' | relative_url }}" />{%
+    endcapture %}
+    {% include 3-modules/hero-item.html image=merchStoreImage title='Tienda ALSW'
+    content='¿Necesitas Arduino, Sensores, Led, Botones o Ayuda en tu Proyecto? ¡Visita nuestra tienda en El Salvador y te ayudaremos a hacer un proyecto épico!' url=site.links.tienda cta='Compra en Tienda' class='merch-store' %}
+
+    {% capture coffee %}{% include 4-vector-graphics/coffee.svg %}{% endcapture %}
+    {% include 3-modules/hero-item.html image=coffee title="Invitanos un Café con Leche"
+    content='Toda ayuda cuenta, anímate' url=site.links.paypal cta='Donación por paypal' class='paypal' %}
+  </div>
+</div>

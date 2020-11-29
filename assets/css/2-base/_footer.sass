@@ -1,0 +1,36 @@
+footer
+  margin-top: 50px
+
+  .links
+    display: flex
+
+    @media (max-width: $tablet-small)
+      flex-wrap: wrap
+
+    a
+      padding: 40px
+      flex-basis: 100%
+      text-align: center
+      @include text-style('title')
+      text-decoration: none
+      color: #FFF
+      margin: 0
+
+      span
+        display: inline-block
+        font-size: 18px
+        transition: all 150ms $timing-function
+        transform: scale(1)
+
+      &:hover, &:focus
+        span
+          transform: scale(1.2)
+
+      &.link-facebook
+        background: $ct-Facebook
+
+      &.link-youtube
+        background: $ct-Youtube
+
+      &.link-instagram
+        background: $ct-yellow

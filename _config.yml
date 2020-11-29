@@ -1,0 +1,185 @@
+#
+# Jekyll Configuraton for https://NocheProgramacion.com
+#
+#  ToDo for Jekyll v3.7:
+#    - Agregar presentaciones Sozi
+#
+
+# --- Site Settings ---
+
+# The site's title.
+title:                        Noche Programacion // ALSW
+
+# Location from where the site will be served (repository name for GitHub Pages).
+baseurl:                      /
+
+# Name of the GitHub repository (used for generating links to GitHub).
+repository:                   alswnet/NocheProgramacion
+
+# Prefix for download links (downloads only the relevant code from GitHub).
+github_download_prefix:       https://alswnet.github.io/DownGit/#/home?url=
+
+# Prefixes for editor.p5js.org
+web_editor_sketch_prefix:     https://editor.p5js.org/chepecarlos/sketches/
+web_editor_fullscreen_prefix: https://editor.p5js.org/chepecarlos/full/
+
+# Suffixes for auto-detecting the video's code that's available for download/preview.
+#
+# name          string  Name of the code variation.
+# folder        string  Name of the folder relative to the video's repository.
+# live_example  boolean Wether this variation should be used as the live example.
+#                       The first match is used. If the video has the `web_editor`
+#                       property, a link to the P5 Web Editor will be used instead.
+code_variations:
+  - lang: "p5js"
+    folder: "P5"
+  - lang: "Processing"
+    folder: "Processing"
+  - lang: "JavaScript"
+    folder: "JavaScript"
+  - lang: "Node.js"
+    folder: "Node"
+  - lang: "Arduino"
+    folder: "Arduino"
+  - lang: "Python"
+    folder: "Python"
+  - lang: "Diagrama"
+    folder: "Diagrama"
+  - lang: "HTML"
+    folder: "HTML"
+  - lang: "Presentacion"
+    folder: "Presentacion"
+
+# Links to other platforms.
+links:
+
+  # link de ALSW.
+  alsw:                       https://alsw.net
+
+  # Tienda de ALSW
+  tienda:                     https://alsw.net/tienda
+
+  # Productos de alsw
+  pieza:                      https://alsw.net/tienda/
+
+  # Link to YouTube.
+  youtube:                    https://youtube.com/alswnet
+
+  # Link to Patreon.
+  patreon:                    https://patreon.com/alswnet
+
+  # Link de discord
+  discord:                    https://discord.gg/ReRapub
+
+  # Link de Donaciones
+  paypal:                     https://www.paypal.me/alswnet
+
+# SEO data for twitter
+twitter:
+  username: alswnet
+
+# --- Build Settings ---
+
+# Use Kramdown as the preferred Markdown parser.
+markdown:                     kramdown
+
+# Exclude code for Node.js and Q_and_A
+exclude:
+  [
+    "Node",
+    "Q_and_A",
+    "unit_testing",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+  ]
+
+# keep_files: ["Presentaciones"]
+
+# Include future videos (used for 'Upcoming Streams' section).
+future:                       true
+
+# Use El Salvador as the site's timezone.
+timezone:                     America/El_Salvador
+
+# Compress HTML for production builds.
+compress_html: { ignore: { envs: ['development'] } }
+
+# Search for SASS files inside assets/css.
+sass: { sass_dir:             "assets/css" }
+
+# Use jekyll-redirect-from to allow redirections
+plugins:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+
+# --- Jekyll Locations ---
+layouts_dir:                  _jekyll/layouts
+includes_dir:                 _jekyll/includes
+
+# --- Collections ---
+collections:
+  RetoProgramacion: { output: true }
+  Cursos:           { output: true }
+  Tutoriales:       { output: true }
+  Guias:            { output: true }
+  Presentaciones:   { output: true }
+  mas:              { output: true }
+  invitados:        { output: true }
+  Grabaciones:      { output: true }
+
+# --- Defaults ---
+
+defaults:
+
+  - scope:              { path: "", type: "RetoProgramacion" }
+    values:
+      layout:                 "video"
+      video_type:             "reto programacion"
+      video_type_short:       "reto"
+      can_contribute:         true
+
+  - scope:              { path: "", type: "Cursos" }
+    values:
+      layout:                 "video"
+      video_type:             "curso"
+      can_contribute:         true
+
+  - scope:              { path: "", type: "Tutoriales" }
+    values:
+      layout:                 "video"
+      video_type:             "tutoriales"
+      video_type_short:       "tutorial"
+      can_contribute:         true
+
+  - scope:              { path: "", type: "Grabaciones" }
+    values:
+      layout:                 "video"
+      video_type:             "grabaciones"
+      video_type_short:       "grabacion"
+      can_contribute:         false
+
+  - scope: { path: "", type:  "Guias" }
+    values:
+      layout:                 "guide"
+
+  - scope: { path: "", type:    "Presentaciones" }
+    values:
+      video_type:             "Presentaciones"
+      video_type_short:       "Presentacion"
+      layout:                 "presentation"
+
+  # Guest Tutorials
+  - scope: { path: "", type: "invitados" }
+    values:
+      layout: "video"
+      video_type: "Invitados"
+      video_type_short: "Invitado"
+      can_contribute: true
+
+  - scope: { path: "", type:  "mas" }
+    values:
+      video_type:             "Video"
+      layout:                 "video"

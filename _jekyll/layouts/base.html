@@ -1,0 +1,43 @@
+---
+layout: compress
+---
+<!doctype html>
+<html lang="es">
+
+<head>
+  {% include 2-base/head.html %}
+</head>
+
+<body>
+  {% include 2-base/header.html %}
+
+  <div class="mobilenav-backdrop" id="mobilenav-backdrop">
+
+    <main class="wrapper" style="{{ page.style }}">
+
+      {% comment %} Show 'no content' error message for videos without a video id. {% endcomment %}
+      {% if page.layout == 'video' and page.video_id == null %}
+
+      <div class="no-content" style="text-align: center">
+        <h2>Disculpa, pero este video aun esta siendo procesado</h2>
+        <a href="{{ '/' | relative_url }}">Mientra espera ve otro video</a>
+      </div>
+
+      {% else %}
+
+      {% if page.title %}
+      <h2>{{ page.title | xml_escape }}</h2>
+      {% endif %}
+
+      {{ content }}
+
+      {% endif %}
+    </main>
+
+  </div>
+  {% include 2-base/footer.html %}
+  {% include 3-modules/back-to-top-button.html %}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</body>
+
+</html>
