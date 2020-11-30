@@ -45,4 +45,4 @@ custom_sections:
 
 ---
 
-Es inicio del Primer Noticiero que te acompaña mientras programas
+Vale la pena pagar 1,000 Dolares por mandar a fabricar un PCB??
