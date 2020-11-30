@@ -22,6 +22,12 @@ custom_sections:
         author:
           name: Kriss Electronics
           url: https://www.youtube.com/c/KrissElectronics
+       - title: "Hablemos de como empezamos a programar"
+         url:
+         author:
+           name:
+           url:
+        
   - title: "Presentadores"
     items:
       - title: "Andres Niño"
