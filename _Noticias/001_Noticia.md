@@ -15,7 +15,7 @@ custom_sections:
       - title: "Como empezamos a programar"
       - title: "Libreria para Controlar tu pc con Python"
         url: https://pyautogui.readthedocs.io/en/latest/
-      - title: "[Youtube) Como selecion Dom en JavaScript"
+      - title: "Como selecion Dom en JavaScript"
         url: https://www.youtube.com/watch?v=v7rSSy8CaYE
         author:
           name: "Web Dev Simplified"
