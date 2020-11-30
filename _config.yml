@@ -2,7 +2,7 @@
 # Jekyll Configuraton for ProgramacionNews
 #
 #  ToDo for Jekyll v3.7:
-#    - 
+#    -
 #
 
 # --- Site Settings ---
@@ -161,7 +161,7 @@ defaults:
       layout:                 "video"
       video_type:             "Noticias"
       video_type_short:       "Noticia"
-      can_contribute:         true
+      can_contribute:         false
 
   - scope:              { path: "", type: "Grabaciones" }
     values:
