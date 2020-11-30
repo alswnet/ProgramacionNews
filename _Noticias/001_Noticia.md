@@ -2,7 +2,7 @@
 title: "Diseño de PCB a la Carta??"
 video_number: 1
 date: 2020-11-30T13:30:00-06:00
-video_id: cjz_4ZptgqM
+video_id: SpKisaFkfG8
 
 custom_sections:
   - title: "Noticias"
