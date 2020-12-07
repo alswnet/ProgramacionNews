@@ -29,6 +29,7 @@ custom_sections:
       - title: "OpenEnergyMonitor"
         url: "https://openenergymonitor.org/"
       - title: "IOT y la Web 2.0"
+      - title: "Como monetizar un proyecto IOT? - Ideas de proyectos/negocios"
   - title: "Presentadores"
     items:
       - title: "Andres Niño"
