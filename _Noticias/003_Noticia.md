@@ -9,6 +9,13 @@ custom_sections:
     items:
       - title: "Por que Aprender IOT?"
         url: "https://programacion.news/Noticias/002_Noticia.html"
+      - title: "Frelancer"
+      - title: "Fiverr - Te creo un proyecto de arduino"
+        url: "https://www.fiverr.com/drcr36/creare-el-perfecto-programa-en-arduino-para-ti"
+      - title: "upwork - Ing Electronica profecional"
+        url: "https://www.upwork.com/o/profiles/users/~0121c10df0d1e469cf/"
+      - title: "Patreon - OctoPrint"
+        url: "https://www.patreon.com/foosel"
       - title: "Crowdfunding"
       - title: "kickstarter - Cyberpunk Printed Circuit Board"
         url: "https://www.kickstarter.com/projects/geeekclub/geeek-club-cyber-punk-printer-circuit-board-construction-set"
