@@ -12,6 +12,11 @@ custom_sections:
         author:
           name: "linuxadictos"
           url: "https://www.linuxadictos.com"
+      - title: "Tema del Año"
+        url: "https://www.youtube.com/watch?v=NVGuFdX5guE"
+        author:
+          name: "CGP Grey"
+          url: "https://www.youtube.com/channel/UC2C_jShtL725hvbm1arSV9w"
       - title: "Linux en Nintendo 64"
         url: "https://www.gamingonlinux.com/2021/01/linux-on-the-nintendo-64-yes-thats-possible-and-theres-a-new-up-to-date-port"
         author:
