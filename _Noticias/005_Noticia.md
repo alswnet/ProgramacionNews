@@ -12,6 +12,11 @@ custom_sections:
         author:
           name: "linuxadictos"
           url: "https://www.linuxadictos.com"
+      - title: "Linux en Nintendo 64"
+        url: "https://www.gamingonlinux.com/2021/01/linux-on-the-nintendo-64-yes-thats-possible-and-theres-a-new-up-to-date-port"
+        author:
+          name: "gamingonlinux"
+          url: "https://www.gamingonlinux.com"
       - title: "Serial Studio"
         url: "https://www.hackster.io/alex-spataru/serial-studio-a-dashboard-software-for-serial-devices-0866b7"
         author:
@@ -21,6 +26,16 @@ custom_sections:
         url: "https://snapcraft.io/chaseapp"
       - title: "La App mas peligro para Escribir"
         url: "https://www.squibler.io/dangerous-writing-prompt-app"
+      - title: "Nvidia Apoyara a X-Wayland"
+        url: "https://www.gamingonlinux.com/2021/01/nvidia-getting-geared-up-to-support-hardware-accelerated-xwayland"
+        author:
+          name: "gamingonlinux"
+          url: "https://www.gamingonlinux.com"
+      - title: "ElGatoALSW"
+        url: "https://github.com/chepecarlos/ElGatoALSW"
+      - title: "27 Dias sin publicar video"
+      - title: "Linux mint 20.1"
+        url: "https://www.linuxmint.com/rel_ulyssa_cinnamon_whatsnew.php"
   - title: "Presentadores"
     items:
       - title: "Andres Niño"
@@ -30,4 +45,4 @@ custom_sections:
 
 ---
 
-Ya le decimos adios a Repoductos Flash en la Rasberry PI 
+Ya le decimos adios a Repoductos Flash en la Rasberry PI
