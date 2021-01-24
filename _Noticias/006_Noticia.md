@@ -47,4 +47,4 @@ custom_sections:
 
 ---
 
-Ya le decimos adios a Repoductos Flash en la Rasberry PI
+La nueva placa desarrollada por fundacion Raspberry Pi y esta epica
