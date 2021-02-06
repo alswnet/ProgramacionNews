@@ -12,6 +12,11 @@ custom_sections:
         author:
           name: "genbeta"
           url: "https://www.genbeta.com"
+      - title: "Google quiere que los proyectos Open Source sea menos Open"
+        url: "https://www.xataka.com/aplicaciones/google-proponen-hacer-que-ciertos-proyectos-open-source-sean-bastante-closed-source"
+        author:
+          name: "xataka"
+          url: "https://www.xataka.com"
   - title: "Presentadores"
     items:
       - title: "Andres Niño"
