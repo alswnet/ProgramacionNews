@@ -1,7 +1,7 @@
 ---
 title: "Software Libre vs Software libre | Vim vs NeoVim"
 video_number: 7
-date: 2021-03-01T13:30:00-06:00
+date: 2021-02-01T13:30:00-06:00
 video_id: wNYtRvx3CF4
 
 custom_sections:
@@ -49,4 +49,4 @@ custom_sections:
 
 ---
 
-Veamos algunas de las  peleas mas famosas de Software libre y la importancia que sea libre 
+Veamos algunas de las  peleas mas famosas de Software libre y la importancia que sea libre
