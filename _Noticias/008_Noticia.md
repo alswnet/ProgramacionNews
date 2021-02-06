@@ -17,6 +17,8 @@ custom_sections:
         author:
           name: "xataka"
           url: "https://www.xataka.com"
+      - title: "Nuevo Arduino CLI 0.15.1"
+        url: "https://twitter.com/arduino/status/1357316909599981569"
   - title: "Presentadores"
     items:
       - title: "Andres Niño"
