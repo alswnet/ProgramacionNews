@@ -7,6 +7,8 @@ video_id: yFQkfsuwvCw
 custom_sections:
   - title: "Noticias"
     items:
+      - title: "Primer contribucion comunitaria a NocheProgramacion"
+        url: "https://nocheprogramacion.com/Cursos/01_Arduino_ChatBot_Telegram/1.6-full-IOT.html"
       - title: "Raspberry Pi OS añadió un repositorio de Microsoft sin informar a los usuarios "
         url: "https://www.genbeta.com/actualidad/raspberry-pi-os-anadio-repositorio-microsoft-informar-a-usuarios"
         author:
