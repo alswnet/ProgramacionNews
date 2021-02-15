@@ -1,7 +1,7 @@
 ---
 title: "Como nacio el Rasberry pi pico, FPGA?"
 video_number: 9
-date: 2021-02-14T13:30:00-06:00
+date: 2021-02-15T13:30:00-06:00
 video_id: l9ZC319zR0g
 
 custom_sections:
