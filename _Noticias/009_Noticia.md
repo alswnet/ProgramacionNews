@@ -8,10 +8,30 @@ custom_sections:
   - title: "Noticias"
     items:
       - title: "El viaje a Raspberry Silicon"
-        url: "https://www.raspberrypi.org/blog/the-journey-to-raspberry-silicon/"
+        url: "https://www.raspberrypi.org/blog/the-journey-to-raspberry-silicon"
         author:
           name: "Liam Fraser"
-          url: "https://www.raspberrypi.org/blog/author/liam-fraser/"
+          url: "https://www.raspberrypi.org/blog/author/liam-fraser"
+      - title: "Raspberrypi Pico vs Arduino Uno"
+        url: "https://www.youtube.com/watch?v=-bw_0KFCp44"
+        author:
+          name: "Curso de Robotica"
+          url: "https://www.youtube.com/channel/UCJCCmOEHvCRsoUkV0e8yPlQ"
+      - title: "Un Corazon de Arduino"
+        url: "https://twitter.com/jipraus/status/1360865864183087105"
+        author:
+          name: "Jiří Praus"
+          url: "https://twitter.com/jipraus"
+      - title: "Mejorar en NocheProgramacion"
+        url: "https://nocheprogramacion.com"
+      - title: "Git para ElGatoALSW :) "
+      - title: "El poder EsLint"
+        url: "https://eslint.org"
+      - title: "El soporte de Wayland para OBS Studio asoma por el horizonte"
+        url: "https://www.muylinux.com/2021/02/12/obs-studio-wayland"
+        author:
+          name: "Muy Linux"
+          url: "https://www.muylinux.com"
   - title: "Presentadores"
     items:
       - title: "Andres Niño"
