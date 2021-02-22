@@ -36,7 +36,7 @@ news:
   - title: "Youtube Data API"
     url: "https://developers.google.com/youtube/v3/docs"
   - title: "Actualizar Descripcion en Python"
-    url: "https://github.com/chepecarlos/ElGatoALSW/blob/master/Extra/YoutubeChat.py"
+    url: "https://github.com/chepecarlos/ElGatoALSW/blob/Prueba/Extra/ApiYoutube.py"
 
 presenter:
   - title: "Andres Niño"
