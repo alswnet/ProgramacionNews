@@ -18,6 +18,8 @@ news:
     url: "https://www.instructables.com/Art-Robot-1/"
     author:
       name: "IngJuan"
+  - title: "Adios a Lastpass"
+    url: "https://computerhoy.com/noticias/tecnologia/utilizas-lastpass-gratis-llegan-cambios-no-te-van-gustar-812531"
   - title: "NocheProgramacion"
   - title: "Jekyll"
     url: "https://jekyllrb.com/"
