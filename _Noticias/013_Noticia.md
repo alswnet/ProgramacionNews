@@ -12,6 +12,8 @@ news:
     url: "https://github.com/obsproject/obs-studio/releases"
   - title: "Mañana doy una conferencia y yo no sabia :)"
     url: "https://Fb.com/Arduinoguatemala"
+  - title: "Me compre CreceTube"
+    url: "https://youtu.be/g_C-QdjUe-M"
   - title: "Google Gano y es muy bueno"
     url: "https://www.youtube.com/watch?v=nfBuZ92NH5k"
   - title: "Dona por una ley para Derecho de reparar"
