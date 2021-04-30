@@ -12,7 +12,7 @@ news:
   - title: "Preparate Liga Pokemon"
   - title: "El producto puede ser bueno, pero necesitas siempre venderlo"
   - title: "Mejor empezar temprano que llegar tarde"
-  - title: "Como comer a un elefante"
+  - title: "Como comer un elefante"
   - title: "O optienes el  los resultados que quiere o la lección que necesitas"
   - title: "Frelancer"
   - title: "Fiverr - Te creo un proyecto de arduino"
